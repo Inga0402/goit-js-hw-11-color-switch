@@ -16,8 +16,6 @@ const colors = [
     body: document.querySelector('body'),
  }
  
- 
-
  let switcherIntervalId = null;
  let bgColor = '';
  
@@ -50,4 +48,3 @@ const colors = [
    }
  }
  refs.stopBtn.addEventListener('click', stopColorSwitch);
- 
